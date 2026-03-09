@@ -32,10 +32,10 @@
 
 ## INSTALL  ON TERMUX
 ```python
-apt update && apt upgrade -y
+pkg update
+pkg upgrade
 pkg install git
 pkg install python
-pip install requests
 git clone https://github.com/frognet087/frog-basic
 cd frog-basic
 bash frog_basic.sh
